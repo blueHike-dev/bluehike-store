@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Navbar = () => {
@@ -10,10 +10,10 @@ const Navbar = () => {
           <Logo>blueHike</Logo>
         </Link>
         <Navbar>
-          <NavLink to='/'>Home</NavLink>
-          <NavLink to='/products'>Products</NavLink>
-          <NavLink to='/contact'>Contact</NavLink>
-          <NavLink to='/cart'>Cart</NavLink>
+          <Link to='/'>Home</Link>
+          <Link to='/products'>Products</Link>
+          <Link to='/contact'>Contact</Link>
+          <Link to='/cart'>Cart</Link>
         </Navbar>
       </Container>
     </HeaderWrapper>
