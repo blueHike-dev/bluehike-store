@@ -9,12 +9,12 @@ const Navbar = () => {
         <Link to='/'>
           <Logo>blueHike</Logo>
         </Link>
-        <Navbar>
+        <NavbarLink>
           <Link to='/'>Home</Link>
           <Link to='/products'>Products</Link>
-          <Link to='/contact'>Contact</Link>
+          <Link to='/contacts'>Contact</Link>
           <Link to='/cart'>Cart</Link>
-        </Navbar>
+        </NavbarLink>
       </Container>
     </HeaderWrapper>
     )
@@ -23,5 +23,6 @@ const Navbar = () => {
 const HeaderWrapper = styled.header``
 const Container = styled.div``
 const Logo = styled.h1``
+const NavbarLink = styled.nav``
 
 export default Navbar
