@@ -32,11 +32,11 @@ function App() {
         element: <Home />
       },
       {
-        path: "/products",
+        path: "/product",
         element: <Products />,
       },
       {
-        path: "/contacts",
+        path: "/contact",
         element: <Contacts />,
       },
 
