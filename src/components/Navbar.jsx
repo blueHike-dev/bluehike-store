@@ -39,16 +39,14 @@ padding: 4rem;
  }
 `
 const Logo = styled.h1`
-flex: 1;
 color: ${({theme}) => theme.colors.primary};
 font-size: 6rem;
 `
 const Navbar = styled.nav`
-flex: 2;
 display: flex;
 align-items: center;
 justify-content: space-between;
-gap: 7rem;
+gap: 3rem;
 font-size: 2.4rem;
 
  @media (max-width: 480px) {
@@ -58,11 +56,16 @@ font-size: 2.4rem;
 `
 
 const NavbarLink = styled(Link)`
-padding: 1.3rem;
+padding: 0.8rem;
+width: 14rem;
+height: 6rem;
+display: flex;
+align-items: center;
+justify-content: center;
 font-size: 2.2rem;
 color: ${({theme}) => theme.colors.light};
 transition: transform 0.1s ease-in-out;
-border-radius: 18px;
+border-radius: 23px;
 
 &:hover {
   background-color: ${({theme}) => theme.colors.grey.dark};

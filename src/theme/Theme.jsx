@@ -2,12 +2,12 @@ const Theme = {
   colors: {
     primary: '#46FFD3',
     red: '#ff9999',
-    dark: '#000',
+    dark: '#0f0e0e',
     light: '#FFF',
     grey: {
       light: '#F9F9F9',
       main: '#E5E5E5',
-      dark:'#181818',
+      dark:'#252424',
       lightdark: '#7B7B7B',
     },
     hover: {
