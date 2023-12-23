@@ -7,7 +7,8 @@ const Theme = {
     grey: {
       light: '#F9F9F9',
       main: '#E5E5E5',
-      dark: '#7B7B7B',
+      dark:'#181818',
+      lightdark: '#7B7B7B',
     },
     hover: {
       primary: '#35eec2',
