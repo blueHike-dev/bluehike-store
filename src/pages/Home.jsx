@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import underline from '../assets/images/underline.png'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
           when it comes to fashion, confirm with us!!!
           We don't do fashion, we are fashion
         </BigMessage>
+        <Underline src={underline} />
       </Message>
     </HomeWrapper>  )
 }
@@ -62,6 +64,20 @@ text-transform:uppercase ;
   font-size: 1.4rem;
 }
 `
-const BigMessage = styled.div``
+const BigMessage = styled.div`
+font-size: 5.4rem;
+font-weight: bold;
+
+@media (max-width:450px) {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+@media (max-width:450px) {
+  font-size: 5rem;
+}
+
+`
+const Underline = styled.img``
 
 export default Home
