@@ -12,7 +12,8 @@ import Footer from './components/Footer'
 import Cart from './components/cart/Cart';
 
 function App() {
-
+  
+  
   const Layout = ()=> {
     return <div className="main">
       <Navbar />
@@ -53,5 +54,7 @@ function App() {
     <RouterProvider router={router} />
   )
 }
+
+
 
 export default App
