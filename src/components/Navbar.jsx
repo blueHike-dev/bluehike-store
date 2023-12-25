@@ -39,14 +39,16 @@ padding: 4rem;
  }
 `
 const Logo = styled.h1`
+flex: 1;
 color: ${({theme}) => theme.colors.primary};
 font-size: 6rem;
 `
 const Navbar = styled.nav`
+flex: 2;
 display: flex;
 align-items: center;
 justify-content: space-between;
-gap: 3rem;
+gap: 1.5rem;
 font-size: 2.4rem;
 
  @media (max-width: 480px) {

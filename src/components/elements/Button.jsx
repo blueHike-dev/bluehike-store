@@ -94,7 +94,8 @@ const ButtonWrapper = styled.button`
       transition: transform 0.15s ease-in-out;
 
       &:hover {
-        transform: scale(1.1);
+        /* transform: scale(1.1); */
+        background-color: ${({theme}) => theme.colors.grey.dark};
       }
 
       &:active {

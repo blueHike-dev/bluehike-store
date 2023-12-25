@@ -14,7 +14,7 @@ const Theme = {
       primary: '#35eec2',
       red: '#ee8888',
       grey: '#d4d4d4',
-      dark: '#333',
+      dark: '#212121',
     },
     active: {
       primary: '#24ddb1',
