@@ -25,7 +25,7 @@ const Theme = {
   },
 
   widths: {
-    content: '140rem',
+    content: '160rem',
   },
 }
 

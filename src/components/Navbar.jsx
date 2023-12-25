@@ -23,7 +23,7 @@ const Header = () => {
 
 const HeaderWrapper = styled.header`
 background-color: ${({theme}) =>theme.colors.dark};
-width: 100vw;
+width: 99vw;
 `
 const Container = styled.div`
 display: flex;
@@ -39,12 +39,14 @@ padding: 4rem;
  }
 `
 const Logo = styled.h1`
-flex: 1;
+display: flex;
 color: ${({theme}) => theme.colors.primary};
 font-size: 6rem;
+margin-right: 40rem;
+
+
 `
 const Navbar = styled.nav`
-flex: 2;
 display: flex;
 align-items: center;
 justify-content: space-between;
