@@ -12,8 +12,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={Theme}>
       <GlobalStyle />
-      <Provider store={store} />
+      <Provider store={store}>
+
     <App />
+      </Provider>
     </ThemeProvider>
   </React.StrictMode>,
 )
