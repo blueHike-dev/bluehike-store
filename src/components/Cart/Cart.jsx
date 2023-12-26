@@ -8,7 +8,7 @@ import {v4 as uuidv4} from 'uuid'
 
 
 const Cart = () => {
-  const cart = useSelector((state) => state.cart)
+  const cart = useSelector((state) => state.cart)  || []
   const isCartOpen = useSelector((state) => state.isCartOpen)
   const dispatch = useDispatch()
 
@@ -20,6 +20,9 @@ const Cart = () => {
      )
      .toFixed(2)
   }
+
+  
+
 
   const cartItems = cart.map((cartItem) => (
     <CartItemCard 

@@ -28,7 +28,7 @@ const ProductCard = ({id, title, price, image, category}) => {
   )
 }
 
-ProductCard.PropTypes = {
+ProductCard.propTypes = {
   id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
