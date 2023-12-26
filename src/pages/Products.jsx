@@ -35,6 +35,7 @@ const Products = () => {
     <ProductCard key={uuidv4()} id={product.id} title={product.title} price={product.price} image={product.image} />
   ))
 
+
   return (
     <ProductsWrapper>{productCards}</ProductsWrapper>
   )

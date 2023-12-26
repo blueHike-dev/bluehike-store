@@ -9,7 +9,7 @@ import Products from './pages/Products';
 import Contacts from './pages/Contacts';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'
-import Cart from './components/cart/Cart';
+import Cart from './components/Cart/Cart';
 
 function App() {
   
