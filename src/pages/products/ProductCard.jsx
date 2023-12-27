@@ -29,7 +29,6 @@ const ProductCard = ({ id, title, price, image, category }) => {
     </ProductCardWrapper>
   );
 };
-console.log("onClick");
 
 ProductCard.propTypes = {
   id: PropTypes.number.isRequired,

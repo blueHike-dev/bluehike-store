@@ -32,7 +32,7 @@ const Cart = () => {
 
   return (
     <>
-      <CartWrapper isOpen={isCartOpen}>
+      <CartWrapper isopen={isCartOpen}>
         <Title>Your Shopping Cart</Title>
         <Products>{cartItems}</Products>
         <Total>Total: KSH.{sumTotal()}</Total>
@@ -50,7 +50,7 @@ const Cart = () => {
           animation="color"
         />
       </CartWrapper>
-      <Overlay onClick={() => dispatch(closeCart())} isOpen={isCartOpen} />
+      <Overlay onClick={() => dispatch(closeCart())} isopen={isCartOpen} />
     </>
   );
 };
@@ -71,8 +71,8 @@ const CartWrapper = styled.div`
   font-size: 3rem;
   transition: right 0.85s ease-in-out;
 
-  ${({ isOpen }) =>
-    isOpen &&
+  ${({ isopen }) =>
+    isopen &&
     css`
       right: 0;
     `}
@@ -107,8 +107,8 @@ const Overlay = styled.div`
   opacity: 0.6;
   transition: left 0.85s ease-in-out;
 
-  ${({ isOpen }) =>
-    isOpen &&
+  ${({ isopen }) =>
+    isopen &&
     css`
       left: 0;
     `}
